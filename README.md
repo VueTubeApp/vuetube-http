@@ -31,8 +31,11 @@ The capacitor community's HTTP plugin is a very important and powerful plugin th
 As this fork is designed for use in the VueTube App specifically, we do not recommend installing this plugin for use in your own applications. Instead, we recommend installing the original plugin located at: <a href="https://github.com/capacitor-community/http">@capacitor-community/http</a>
 
 ```bash
-npm install https://github.com/VueTubeApp/vuetube-http
+npm install @vuetubeapp/vuetube-http
+```
+
 npx cap sync
+
 ```
 
 ## Contributors ✨
@@ -80,3 +83,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+```
