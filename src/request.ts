@@ -130,7 +130,7 @@ export const request = async (options: HttpOptions): Promise<HttpResponse> => {
   let { responseType = 'text' } = response.ok ? options : {};
 
   // If the response content-type is json, force the response to be json
-  if (contentType.includes('application/json')) {
+  if (contentType.includes('application/json') && !options.responseType) {
     responseType = 'json';
   }
 
