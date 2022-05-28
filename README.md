@@ -32,10 +32,7 @@ As this fork is designed for use in the VueTube App specifically, we do not reco
 
 ```bash
 npm install @vuetubeapp/vuetube-http
-```
-
 npx cap sync
-
 ```
 
 ## Contributors ✨
@@ -83,4 +80,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-```
